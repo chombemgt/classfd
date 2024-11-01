@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 
      const handleSubmit = async (e) => {
        e.preventDefault();
-       await axios.post('http://localhost:5000/register', { username, password });
+       await axios.post('https://clasbk-3.onrender.com/register', { username, password });
        alert('User registered successfully');
      };
 
